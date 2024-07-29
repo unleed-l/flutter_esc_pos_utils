@@ -24,7 +24,7 @@ class PosTextSize {
   static const size8 = PosTextSize._internal(8);
 
   static int decSize(PosTextSize height, PosTextSize width) =>
-      16 * (width.value - 1) + (height.value - 1);
+      8 * (width.value - 1) + (height.value - 1);
 }
 
 class PaperSize {
